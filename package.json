@@ -32,15 +32,8 @@
     "pug": "^2.0.0-rc.1",
     "pug-html-loader": "^1.1.4",
     "pug-static-loader": "^1.0.1",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-router": "^4.1.1",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.17.0",
     "webpack": "^2.6.1"
-  },
-  "dependencies": {
-    "react-redux": "4.3.0",
-    "redux": "^3.0.4"
   }
 }

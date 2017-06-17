@@ -25,18 +25,14 @@ const app = {
         winHeight = win.innerHeight;
 
     //- ### ### ### CANVAS 1
-    canvas1.init(1);
-    canvas1.canvas
-      .addEventListener('click', function (e) {
-        canvas1.makeCircles(999);
-        canvas1.yoloText = "☺";
-      });
+    canvas1.init();
     //- ### CANVAS 1 ON MOUSEMOVE
-    canvas1.canvas
-      .addEventListener('mousemove', function (e) {
-        canvas1.e = e;
-        canvas1.yoloText = "Can't catch this! Rather click the canvas...";
-      });
+    // cnv1
+    //   .addEventListener('mousemove', function (e) {
+    //     let evt = e,
+    //         ths = this;
+    //     canvas1.draw(e);
+    //   });
 
     // cnv1
     //   .addEventListener('mouseout', function (e) {
